@@ -7,6 +7,8 @@ import {
   Image,
 } from 'react-native';
 
+console.disableYellowBox = true; 
+
 import Main from './src/components/Main';
 
 export default class loginAnimation extends Component {
